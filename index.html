@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/assets/css/layout.css">
+    <link rel="stylesheet" href="./src/assets/css/pg-home.css">
+    <title>Foodfy</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="container__div">
+
+            <header class="header">
+
+                <nav class="header__nav">
+                    <a href="./index.html">
+                        <img src="./src/assets/img/logo.png" alt="Logo Foodfy">
+                    </a>
+                    <ul class="header__nav-menu">
+                        <li>
+                            <a href="./about.html">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="./recipes.html">Receitas</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <section class="header__banner">
+                    <div class="header__banner-text">
+                        <h2>As melhores receitas</h2>
+                        <p>
+                            Aprenda a construir os melhores pratos
+                            com receitas criadas por profissionais
+                            do mundo inteiro.
+                        </p>
+                    </div>
+                    <img src="./src/assets/img/chef.png" alt="Ilustração de um chef de cozinha segurando uma bandeja.">
+                </section>
+            </header>
+
+            <section class="top-recipes">
+                <h2>
+                    Mais acessadas
+                </h2>
+
+                <!--#######- RECIPES CARDS -#######-->
+                <div class="cards">
+
+                    <div class="card">
+                        <div class="card__image">
+                            <img src="./src/assets/img/burger.png"
+                                alt="Hamburguer com queijo, carne de hamburguer e alface. Acompanhado de batatas fritas.">
+                        </div>
+                        <div class="card__info">
+                            <div class="card__info-title">
+                                <h3>Triplo bacon burger</h3>
+                            </div>
+                            <div class="card__info-author">
+                                <p>por Jorge Relato</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__image">
+                            <img src="./src/assets/img/pizza.png" alt="Pizza servida em uma mesa.">
+                        </div>
+                        <div class="card__info">
+                            <div class="card__info-title">
+                                <h3>Pizza 4 estações</h3>
+                            </div>
+                            <div class="card__info-author">
+                                <p>por Fabiana Melo</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__image">
+                            <img src="./src/assets/img/espaguete.png"
+                                alt="Espagauete com molho de alho por cima, servido em um prato de porcelana branca.">
+                        </div>
+                        <div class="card__info">
+                            <div class="card__info-title">
+                                <h3>Espaguete ao alho</h3>
+                            </div>
+                            <div class="card__info-author">
+                                <p>por Júlia Kinoto</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__image">
+                            <img src="./src/assets/img/lasanha.png"
+                                alt="Lasanha de queijo e macarrão, servida em uma forma de porcelana branca.">
+                        </div>
+                        <div class="card__info">
+                            <div class="card__info-title">
+                                <h3>Lasanha mac n’ cheese</h3>
+                            </div>
+                            <div class="card__info-author">
+                                <p>por Juliano Vieira</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__image">
+                            <img src="./src/assets/img/doce.png"
+                                alt="Caixa de doces pão-do-céu sendo seguradas por a mão de um homem.">
+                        </div>
+                        <div class="card__info">
+                            <div class="card__info-title">
+                                <h3>Docinhos pão-do-céu</h3>
+                            </div>
+                            <div class="card__info-author">
+                                <p>por Ricardo Golvea</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__image">
+                            <img src="./src/assets/img/asinhas.png"
+                                alt="Assinhas de frango servidas em um prato de madeira, acompanhadas de salada de cebola e potinho de molho branco.">
+                        </div>
+                        <div class="card__info">
+                            <div class="card__info-title">
+                                <h3>Asinhas de frango ao barbecue</h3>
+                            </div>
+                            <div class="card__info-author">
+                                <p>por Vania Steroski</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!---------- END CARDS ---------->
+            </section>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Todos direitos reservados, receitas Foodfy.</p>
+    </footer>
+
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <div class="modal__content"></div>
+            <div class="modal__close">Fechar modal</div>
+        </div>
+    </div>
+
+    <script src="./src/assets/js/script.js"></script>
+</body>
+
+</html>
